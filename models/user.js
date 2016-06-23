@@ -9,7 +9,7 @@ const userSchema = new Schema({
 });
 
 
-//create mosel class
+//create model class
 const ModelClass = mongoose.model('user', userSchema);
 
 //export the model
